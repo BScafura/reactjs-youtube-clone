@@ -1,4 +1,6 @@
-export const API_KEY = "AIzaSyDzujdQlQdNeawBDP-lqq7U1wzqF7BymaA";
+import { configKey } from "../keys";
+
+export const API_KEY = configKey;
 
 export const value_converter = (value) => {
   if (value >= 1000000) {
